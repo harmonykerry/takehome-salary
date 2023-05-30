@@ -32,7 +32,10 @@ function SalaryForm({ handleFormError, handleFormSuccess, handleCalculation }) {
   };
 
   return (
-    <Form className="border p-3 rounded-3 mb-3" onSubmit={handleSubmit}>
+    <Form
+      className="border border-dark border-2 p-3 rounded-3 mt-3 mb-3"
+      onSubmit={handleSubmit}
+    >
       <Form.Group className="mb-3">
         <Form.Label>Select Tax Year</Form.Label>
         <Form.Select onChange={handleChange} name="taxYear" value={taxYear}>
@@ -42,7 +45,7 @@ function SalaryForm({ handleFormError, handleFormSuccess, handleCalculation }) {
         </Form.Select>
       </Form.Group>
 
-      <Form.Group className="mb-3">
+      <Form.Group className="mb-3 ">
         <Form.Label>Gross Annual Salary</Form.Label>
         <Form.Control
           type="number"
@@ -54,7 +57,7 @@ function SalaryForm({ handleFormError, handleFormSuccess, handleCalculation }) {
       </Form.Group>
       <Form.Group className="mb-3 text-center">
         <Button variant="success" type="submit">
-          Submit
+          Calculate
         </Button>
       </Form.Group>
     </Form>

@@ -1,31 +1,30 @@
-## Getting Started
+## Available Scripts
 
-1. > Navigate to your `coding_bootcamp` workspace:
+In the project directory, you can run:
 
-```
-cd ~/coding_bootcamp
-```
+- ### `npm start`
 
-2. > Create a react project using the `create-react-app` script and use your own app name:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-```
-npx create-react-app your-app-name
-cd your-react-app
-```
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-3. > Create a repository in [GitHub](https://github.com/new) and enter the "Repository name" as the same name as your react app.
+- ### `npm test`
 
-4. > In the terminal within your react app enter the commands provided by GitHub. The first command points your local repository to the remote GitHub, the second command sets your branch as `main` and the last command pushes all your local changes to the remote repository
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-```
-git remote add origin git@github.com:YOUR_GITHUB_USERNAME/your-app-name.git
-git branch -M main
-git push -u origin main
-```
+- ### `npm run build`
 
-5. > Once you refresh your GitHub page on the web browser you will see all your local files in GitHub.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-6. > You can now proceed to work locally and add commit and push code regularly during development
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
 
 ## Resources
 
